@@ -1,0 +1,24 @@
+{
+  "$schema": "../schemas/is-cool.dev.schema.json",
+
+  "description": "A simple webrtc app hosted on render.com",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "webrtcproject",
+
+  "owner": {
+    "repo": "https://github.com/kapana031/repo",
+    "email": "kapadirohit@gmail.com"
+  },
+
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "webrtcproject.com",
+    "MX": ["mx1.webrtcproject.com", "mx2.webrtcproject.com"],
+    "NS": ["ns1.webrtcproject.com", "ns2.webrtcproject.com"],
+    "TXT": ["webrtcproject_verification=1234567890"]
+  },
+
+  "proxy": false
+}
